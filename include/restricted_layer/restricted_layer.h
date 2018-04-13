@@ -1,18 +1,18 @@
-#ifndef SIMPLE_LAYER_H_  
-#define SIMPLE_LAYER_H_  
+#ifndef RESTRICTED_LAYER_H_
+#define RESTRICTED_LAYER_H_
 #include <ros/ros.h>  
 #include <costmap_2d/layer.h>  
 #include <costmap_2d/layered_costmap.h>  
 #include <costmap_2d/GenericPluginConfig.h>  
 #include <dynamic_reconfigure/server.h>  
   
-namespace simple_layer_namespace  
+namespace restricted_layer_namespace
 {  
   
-class SimpleLayer : public costmap_2d::Layer  
+class RestrictedLayer : public costmap_2d::Layer
 {  
 public:  
-  SimpleLayer();  
+  RestrictedLayer();
   
   virtual void onInitialize();  
   virtual void updateBounds(double origin_x, double origin_y, double origin_yaw, double* min_x, double* min_y, double* max_x,  

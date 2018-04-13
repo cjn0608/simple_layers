@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>simple_layers</name>
+  <name>restricted_layers</name>
   <version>0.0.0</version>
-  <description>The simple_layers package</description>
+  <description>The restricted_layers package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
